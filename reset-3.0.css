@@ -58,7 +58,7 @@ a:hover{text-decoration: underline;}
 a,a:link,a:visited,a:hover,a:active{outline:0;}
 a img{border:0;}
 
-/********************************==[Progress HTML5]==***************************/
+/********************************==[HTML5]==***************************/
 progress[value]
 {-webkit-appearance: none;appearance: none;}
 /********************************==[List]==*************************************/
