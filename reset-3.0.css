@@ -60,7 +60,7 @@ a img{border:0;}
 
 /********************************==[HTML5]==***************************/
 progress[value]
-{-webkit-appearance: none;appearance: none;}
+{-webkit-appearance: none;appearance: none;border: none;color: inherit}
 /********************************==[List]==*************************************/
 
 li{list-style-type:none;}
