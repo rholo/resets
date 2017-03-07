@@ -21,7 +21,8 @@ also include some new HTML5 Elements
 ```sh
 <link rel="stylesheet" media="all" href="reset.css"/>
 ```
-also link it from my site at [rholo]
+also [link] it from my site at [rholo]
 
 
-   [rholo]: <http://cdn.rholo.cl>
+   [link]: <http://cdn.rholo.cl/reset.css>
+   [rholo]: <http://rholo.cl>
