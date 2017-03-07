@@ -1,11 +1,10 @@
 /**
- * @author Rodrigo Ahumada, Front-end Developer
- * @description Custom CSS initial and global Config.
- * @params $font-size-global, $font-size, $font-family
- * @link http://rholo.cl/labs/initial.css
- * @version 2.0.0
- * @licence free (public domain)
- */
+    * @author Rodrigo Ahumada, Front-end Developer
+    * @description Custom SCSS reset most used HTML elements and global Config.
+    * @params $font-size-global, $font-size, $font-family
+    * @version 2.5.0
+    * @licence free (public domain)
+*/
 
  $font-size-global :62.5%;
  $font-size :1.4rem;
