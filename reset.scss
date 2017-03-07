@@ -1,133 +1,127 @@
 /**
  * @author Rodrigo Ahumada, Front-end Developer
  * @description Custom CSS initial and global Config.
+ * @params $font-size-global, $font-size, $font-family
  * @link http://rholo.cl/labs/initial.css
  * @version 2.0.0
  * @licence free (public domain)
  */
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video, img, main, input, textarea, select {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+ $font-size-global :62.5%;
+ $font-size :1.4rem;
+ $font-family:'Segoe UI', Helvetica, 'lucida grande', tahoma, sans-serif;
 
-article, aside, canvas {
-  display: block;
-}
-
-figure {
-  display: block;
-  img {
-    display: block;
-  }
-}
-
-figcaption, hgroup, footer, header, nav, section, audio, video, main, img {
-  display: block;
-}
-
-$font-size-global :62.5%;
-$font-size :1.4rem;
+ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video, img, main, input, textarea, select {
+     border: 0;
+     margin: 0;
+     padding: 0;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+ article, aside, canvas, figure, figure img, figcaption, hgroup, footer, header, nav, section, audio, video, main, img {
+     display: block;
+ }
 
 html {
-  font-size: $font-size-global;
-  -webkit-text-size-adjust: $font-size-global;
-  -ms-text-size-adjust: $font-size-global;
+    font-size: $font-size-global;
+    -webkit-text-size-adjust: $font-size-global;
+    -ms-text-size-adjust: $font-size-global;
 }
 
 body {
-  font-weight: normal;
-  line-height: 1.6875;
-  -webkit-font-smoothing: antialiased;
-  -webkit-touch-callout: none;
-  -webkit-text-size-adjust: none;
-  -webkit-user-select: text;
+    font-family: $font-family;
+    font-weight: normal;
+    line-height: 1.6875;
+    -webkit-font-smoothing: antialiased;
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: text;
 }
 h1 {
-  font-size: $font-size*1.9;
+    font-size: $font-size*1.9;
 }
 h2 {
-  font-size: $font-size*1.7;
+    font-size: $font-size*1.7;
 }
 h3 {
-  font-size: $font-size*1.5;
+    font-size: $font-size*1.5;
 }
 h4 {
-  font-size: $font-size*1.4;
+    font-size: $font-size*1.4;
 }
 h5 {
-  font-size: $font-size*1.3;
+    font-size: $font-size*1.3;
 }
 h6 {
     font-size: $font-size*1.2;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
+    font-weight: normal;
 }
 
-p, span, label, a, li, ol, strong {
-  font-size:$font-size;
-  line-height: $font-size*1.5;
-  color: inherit;
+p, span, label, a, li, ol, th, td {
+    font-size:$font-size;
+    line-height: $font-size*1.5;
+    color: inherit;
 }
 strong{
     font-size: inherit;
+    line-height: inherit;
     font-weight: 700;
 }
-small {font-size: $font-size*0.8;}
-
+small {
+    font-size: $font-size*0.8;
+}
 a {
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
-  outline: 0;
-  &:link, &:visited, &:hover, &:active {
+    text-decoration: none;
     outline: 0;
+  &:hover {
+      text-decoration: underline;
+  }
+  &:link, &:visited, &:hover, &:active {
+      outline: 0;
   }
   img {
-    border: 0;
+      border: 0;
   }
 }
 progress[value] {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 100%;
-  border: none;
-  color: inherit;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+  height: 35px;
+    border: none;
+    color: inherit;
   &::-webkit-progress-bar {
-    background-color: grey;
+    background-color: #eee;
+    border-radius: 2px;
   }
   &::-webkit-progress-value {
-    background-color: blue ;
+    background-color: #2980b9;
   }
 }
 
 li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 textarea {
-  vertical-align: top;
-  resize: vertical;
-  font-family: inherit;
-  width: 100%;
+    vertical-align: top;
+    resize: vertical;
+    font-family: inherit;
+    width: 100%;
   padding: 10px;
 }
 
-input {
-  vertical-align: middle;
+input, select {
+    vertical-align: middle;
 }
 
 select {
-  vertical-align: middle;
-  -webkit-appearance: menulist-button;
-  background: none;
+    background: white;
+    -webkit-appearance: menulist-button;
 }
 
 input {
@@ -137,27 +131,33 @@ input {
     }
   }
   &[type="file"] {
-    background: none;
+      background: none;
   }
   &[type="checkbox"],&[type="radio"]{
-    padding: 0;
+      padding: 0;
+  }
+  &[type="button"],[type="text"],[type="password"]{
+      border: 0;
+      display: block;
+      width: 100%;
   }
 }
 
-button {
-  cursor: pointer;
-  -webkit-appearance: button;
-  font-weight: 700;
-  &:disabled{
-      cursor: not-allowed;
-      opacity: .5;
-  }
-}
-
-input {
-  &[type="button"], &[type="reset"], &[type="submit"] {
+button, input[type="button"], input[type="reset"], input[type="submit"] {
     cursor: pointer;
-    -webkit-appearance: button;
     font-weight: 700;
+    -webkit-appearance: button;
+  &:disabled{
+        cursor: not-allowed;
+        opacity: .5;
+  }
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+    width: 100%;
+  td, tr {
+      border: 0;
   }
 }
