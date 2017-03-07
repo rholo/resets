@@ -17,13 +17,11 @@ also include some new HTML5 Elements
   - configurate your font-family and font-size.
 
 ## Use it!
-add on your proyect
+  link CSS reset in your HTML
 ```sh
-<link rel="stylesheet" media="all" href="cdn.rholo.cl/reset.css"/>
+<link rel="stylesheet" media="all" href="reset.css"/>
 ```
 also link it from my site at [rholo]
-
-## include it in your SASS proyect
 
 
    [rholo]: <http://cdn.rholo.cl>
