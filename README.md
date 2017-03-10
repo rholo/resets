@@ -21,6 +21,11 @@ also include some new HTML5 Elements
 ```sh
 <link rel="stylesheet" media="all" href="reset.css"/>
 ```
+
+## npm package
+```sh
+npm install resets
+```
 also [link] it from [rholo]
 
 
