@@ -112,6 +112,7 @@ select {
 [type="checkbox"],
 [type="radio"] {
     padding: 0;
+    vertical-align: text-bottom;
 }
 input[type="search"]::-ms-clear {
     display: none;

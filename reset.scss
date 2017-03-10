@@ -134,6 +134,7 @@ input {
   }
   &[type="checkbox"],&[type="radio"]{
       padding: 0;
+      vertical-align: text-bottom;
   }
   &[type="button"],[type="text"],[type="password"]{
       border: 0;
