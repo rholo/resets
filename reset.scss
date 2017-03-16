@@ -63,6 +63,8 @@ h1, h2, h3, h4, h5, h6 {
 p, span, label, a, li, ol, th, td {
     font-size:$font-size;
     line-height: $font-size*1.5;
+}
+span, label, strong, li, ol, th, td {
     color: inherit;
 }
 strong{

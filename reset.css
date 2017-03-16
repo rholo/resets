@@ -53,8 +53,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 p, span, label, a, li, ol, th, td {
     font-size: 1.4rem;
-    color: inherit;
     line-height: 1.8;
+}
+span, label, li, ol, th, td, strong{
+    color: inherit;
 }
 strong{
     font-size: inherit;
@@ -124,6 +126,10 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     cursor: pointer;
     font-weight: 700;
     -webkit-appearance: button;
+    padding: 4px 10px;
+    border: 0;
+    margin: 0;
+    vertical-align: middle;
 }
 table {
     border-collapse: collapse;
