@@ -1,3 +1,5 @@
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rholo/resets/master/LICENSE)
+[![npm version](https://badge.fury.io/js/css-resets.svg)](https://badge.fury.io/js/css-resets)
 # Reset CSS
 
 Reset is a CSS to standardizing your HTML elements on different browsers
@@ -21,13 +23,14 @@ also include some new HTML5 Elements
 ```sh
 <link rel="stylesheet" media="all" href="reset.css"/>
 ```
-
 ## npm package
 ```sh
 npm install resets
 ```
-also [link] it from [rholo]
+[![NPM](https://nodei.co/npm/css-resets.png?downloads=true&stars=true)](https://nodei.co/npm/css-resets/)
 
+
+also [link] it minify version
 
    [link]: <http://cdn.rholo.cl/reset.min.css>
    [rholo]: <http://rholo.cl>
