@@ -1,2 +1,4 @@
 .gitignore
 .npmignore
+.DS_Store
+.git
