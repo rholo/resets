@@ -113,7 +113,7 @@ textarea {
     resize: vertical;
     font-family: inherit;
     width: 100%;
-  padding: 10px;
+    padding: 10px;
 }
 
 input, select {
@@ -148,6 +148,8 @@ input {
 button, input[type="button"], input[type="reset"], input[type="submit"] {
     cursor: pointer;
     font-weight: 700;
+    border: 0;
+    vertical-align: middle;
     -webkit-appearance: button;
   &:disabled{
         cursor: not-allowed;
