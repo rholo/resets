@@ -16,13 +16,8 @@ also include some new HTML5 Elements
 
 ### SASS version include
   - Configurate your reset file and customize it!
-  - configurate your font-family and font-size.
+  - configurate your font-family and font-size with variables
 
-## Use it!
-  link CSS reset in your HTML
-```sh
-<link rel="stylesheet" media="all" href="reset.css"/>
-```
 ## npm package
 ```sh
 npm install resets
@@ -30,7 +25,6 @@ npm install resets
 [![NPM](https://nodei.co/npm/css-resets.png?downloads=true&stars=true)](https://nodei.co/npm/css-resets/)
 
 
-also [link] it minify version
+also download minify version at [rholo]
 
-   [link]: <http://cdn.rholo.cl/reset.min.css>
-   [rholo]: <http://rholo.cl>
+   [rholo]: <http://rholo.cl/resets>
