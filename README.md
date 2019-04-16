@@ -6,18 +6,17 @@ Reset is a CSS to standardizing your HTML elements on different browsers
 
 ### CSS Ready to use version include:
   - font-size (rem units)
-  - font-family
+  - font-family System Font
   - list
   - button
   - inputs
   - table
 
-also include some new HTML5 Elements
+also include HTML5 elements
 
 ### SASS version include
-  - Configurate your reset file and customize it!
-  - configurate your font-family and font-size with variables
-
+  - Configurate it and customize to make tiny!
+  - 
 ## npm package
 ```sh
 npm install resets
