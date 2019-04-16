@@ -24,6 +24,10 @@ npm install resets
 [![NPM](https://nodei.co/npm/css-resets.png?downloads=true&stars=true)](https://nodei.co/npm/css-resets/)
 
 
-also download minify version at [rholo]
+minify version
 
-   [rholo]: <http://rholo.cl/resets>
+  - jsdelivr
+  - UNPKG
+
+   [jsdelivr]: <https://cdn.jsdelivr.net/npm/css-resets@1.0.4/reset.min.css>
+   [UNPKG]: <unpkg.com/css-resets@1.0.4/reset.min.css>
