@@ -1,10 +1,4 @@
-/**
-    * @author Rodrigo Ahumada, Front-end Developer
-    * @description Custom SCSS reset most used HTML elements and global Config.
-    * @params $font-size-global, $font-size, $font-family
-    * @version 1.0.4
-    * @licence free (public domain)
-*/
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video, img, main, input, textarea, select {
   border: 0;
   margin: 0;
@@ -25,7 +19,7 @@ html {
 }
 
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   font-weight: normal;
   line-height: 1.6875;
   -webkit-font-smoothing: antialiased;
