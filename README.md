@@ -15,7 +15,7 @@ Reset is a CSS to standardizing your HTML elements on different browsers
 also include HTML5 elements
 
 ### SASS version include
-  - Configurate it and customize to make tiny!
+  - Configurate version make tiny reset css file!
   
 ## npm package
 ```sh
