@@ -30,4 +30,4 @@ minify version
   - [UNPKG]
 
    [jsdelivr]: <https://cdn.jsdelivr.net/npm/css-resets@1.0.4/reset.min.css>
-   [UNPKG]: <unpkg.com/css-resets@1.0.4/reset.min.css>
+   [UNPKG]: <https://unpkg.com/css-resets@1.0.4/reset.min.css>
